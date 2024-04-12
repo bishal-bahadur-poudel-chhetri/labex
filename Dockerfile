@@ -12,7 +12,7 @@ COPY ./requirements.txt .
 RUN pip install -r requirements.txt
 
 # Copy Django project to /app directory
-COPY ./django /app
+COPY ./MoreFiles /app
 
 # Set working directory
 WORKDIR /app
