@@ -4,5 +4,5 @@ FROM python:3.8.5-alpine
 # Copy Django project to /app directory
 COPY ./MoreFIles /app
 
-# Set working directory
+# Set working direct
 WORKDIR /app
